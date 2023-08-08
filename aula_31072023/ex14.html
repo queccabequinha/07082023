@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script lang="JavaScript">
+
+        var n1,n2,n3
+
+        n1 = parseFloat(window.prompt("Escreva o primeiro número: "))
+        n2 = parseFloat(window.prompt("Escreva o segundo número: "))
+        n3 = parseFloat(window.prompt("Escreva o terceiro número: "))
+
+        if (n1 > n2 && n1 > n3) {
+           
+            if ((n1 * n1) == (n2 * n2) + (n3 * n3)) {
+                document.write("É um  triângulo retângulo")
+            }
+            
+        }
+        if (n2 > n1 && n2 > n3) {
+            if ((n2 * n2) == (n1 * n1) + (n3 * n3)) {
+                document.write("É um  triângulo retângulo")
+            }
+        }
+        if (n3 > n2 && n3 > n1) {
+            if ((n3 * n3) == (n2 * n2) + (n1 * n1)) {
+                document.write("É um  triângulo retângulo")
+            }
+        }
+
+
+    </script>
+</body>
+</html>

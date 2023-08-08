@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=], initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+   <script lang="JavaScript">
+
+           document.write("<table border='1'>")
+           document.write("<tr>")
+           document.write("<td>")
+
+       for (var i = 1; i <= 20; i++) {
+
+            document.write("<table border='0'>")
+                
+            for (var x = 1; x <= 10; x++) {
+            
+            document.writeln("<tr> <td>"+ i + " x " + x + " = " + (i*x) + "</td> </tr>")
+            
+            }
+            
+            
+            document.write("</table>"); 
+            document.write("</td>");          
+            
+            if (i%5==0) {
+                document.write("</tr>");
+            }
+
+            document.write("<td>"); 
+
+        }
+
+        
+
+    </script> 
+
+</body>
+</html>
